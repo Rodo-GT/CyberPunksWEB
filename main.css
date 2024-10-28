@@ -30,9 +30,9 @@ body {
 }
 
 .neon-link {
-    color: #dedede !important;
+    color: #ffffff !important;
     font-weight: bold;
-    text-shadow: 0 0 5px #000000, 0 0 10px #ffffff;
+    text-shadow: 0 0 5px #000000, 0 0 10px #000000;
     transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
@@ -76,7 +76,6 @@ body {
     pointer-events: none;
     transition: transform 0.05s ease;
 }
-/* Estilo para el rastro del cursor */
 .cursor-trail {
     position: absolute;
     width: 10px;
@@ -87,7 +86,6 @@ body {
     transition: transform 0.1s ease;
 }
 
-/* Efecto de brillo en el botón */
 .button-glow {
     box-shadow: 0 0 15px #f50202, 0 0 25px #00ffcc;
 }

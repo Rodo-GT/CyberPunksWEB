@@ -13,7 +13,6 @@ document.addEventListener("mousemove", function (event) {
         });
     }, 100);
 });
-// Efecto de estela para el ratón
 document.addEventListener("mousemove", function(event) {
     const cursorTrail = document.createElement("div");
     cursorTrail.className = "cursor-trail";
@@ -48,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(() => glitchEffect(title), 3000);
 });
 
-// Efecto de iluminación en el botón al pasar el ratón
 const button = document.querySelector(".cyber-btn");
 button.addEventListener("mouseover", () => {
     button.classList.add("button-glow");
@@ -57,7 +55,6 @@ button.addEventListener("mouseout", () => {
     button.classList.remove("button-glow");
 });
 
-// Efecto de carga de página
 window.addEventListener("load", () => {
     const loader = document.createElement("div");
     loader.className = "loader";
